@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Lista De Tarefa</title>
+</head>
+<body>
+
+    <header>
+        <img id="logo" src="img/Logo.svg" alt="Logomarca">
+        <form id="taskForm">
+            <input id="input" type="text" placeholder="Adicione uma nova tarefa" />
+            <button type="submit">Criar <img id="addIcon" src="img/PlusCircleRegular.svg" alt="Icon De Adicionar"></button>
+        </form>
+    </header>
+
+    <main>
+        <div id="taskTitle"> 
+            <h2>Tarefas criadas <span id="taskTitle_decoration1">0</span></h2>
+            <h2>Concluídas <span id="taskTitle_decoration2">0</span></h2>
+        </div>
+
+        <div id="taskArea">
+            <div id="taskArea_info">
+                <img id="iconTask" src="img/ClipboardTextRegular.svg" alt="Caderno De Anotações">
+                <div id="taskArea_texts">
+                    <h2 id="taskArea_text1">Você ainda não tem tarefas cadastradas</h2>
+                    <h3 id="taskArea_text2">Crie Tarefas e organize seus itens a fazer</h3>
+                </div>
+            </div>
+
+            <ul id="list">
+                <!-- <li class="taskList">
+                    <img class="taskList_img" src="img/CircleRegular.svg" alt="Circulo">
+                    <h3 class="taskList_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum,Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum,Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum,Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum,</h3>
+                    <img class="taskList_img" src="img/Delete.svg" alt="Remover">
+                </li>
+                <li class="taskList">
+                    <img class="taskList_img" src="img/CircleRegular.svg" alt="Circulo">
+                    <h3 class="taskList_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum,Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum,Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum,Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum,</h3>
+                    <img class="taskList_img" src="img/Delete.svg" alt="Remover">
+                </li>
+
+                <li class="taskList">
+                    <img class="taskList_img" src="img/CircleRegular.svg" alt="Circulo">
+                    <h3 class="taskList_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum,Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum,Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum,Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum,</h3>
+                    <img class="taskList_img" src="img/Delete.svg" alt="Remover">
+                </li>
+                    
+                <li class="taskList_done">
+                    <img class="taskList_done_img" src="img/CheckCircleFill.svg" alt="">
+                    <h3 class="taskList_done_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum,Lorem ipsum dolor</h3>
+                    <img class="taskList_done_img" src="/img/Delete.svg" alt="">
+                </li> !-->
+
+            </ul>
+            
+        </div>
+    </main>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
